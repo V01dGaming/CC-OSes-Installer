@@ -35,6 +35,13 @@ os.pullEvent = os.pullEventRaw
 
 
 -- Start of Functions
+function Delete()
+	shell.run("cd /")
+	shell.run("delete startup.lua")
+	shell.run("delete /Apps")
+	shell.run("delete /Sys")
+end
+
 function Dir()
 	-- /Sys
 	shell.run("mkdir " .. Path1)
