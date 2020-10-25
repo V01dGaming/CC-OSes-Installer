@@ -1,3 +1,4 @@
+-- StarOS (Computercraft OS) Installer
 os.pullEvent = os.pullEventRaw
 
 
