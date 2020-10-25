@@ -83,6 +83,7 @@ end
 
 
 -- Start of Program
+Delete()
 Dir()
 Files()
 shell.run("reboot")
