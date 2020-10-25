@@ -44,6 +44,9 @@ function Dir()
 end
 
 function Files()
+	-- /
+	shell.run("cd /")
+	shell.run("wget " .. File1)
 	-- /Sys
 	shell.run("cd " .. Path1)
 	shell.run("wget " .. File2)
