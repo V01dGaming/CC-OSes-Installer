@@ -16,6 +16,7 @@ os.pullEvent = os.pullEventRaw
 		local File1 = "https://raw.githubusercontent.com/V01dGaming/StarOS/main/startup.lua"
 		-- /Sys
 		local File2 = "https://raw.githubusercontent.com/V01dGaming/StarOS/main/Sys/OS.lua"
+		local File12 = "https://raw.githubusercontent.com/V01dGaming/StarOS/main/Sys/Update.lua"
 		-- /Sys/Errors
 		local File3 = "https://raw.githubusercontent.com/V01dGaming/StarOS/main/Sys/Errors/OSError.lua"
 		local File4 = "https://raw.githubusercontent.com/V01dGaming/StarOS/main/Sys/Errors/InfoError.lua"
@@ -51,6 +52,7 @@ function Files()
 	-- /Sys
 	shell.run("cd " .. Path1)
 	shell.run("wget " .. File2)
+	shell.run("wget " .. File12)
 	-- /Sys/Errors
 	shell.run("cd " .. Path2)
 	shell.run("wget " .. File3)
